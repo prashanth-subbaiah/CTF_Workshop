@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Web — Special Characters</title><link rel="stylesheet" href="../css/style.css"></head><body>
+<header class="site-header container"><h1>Web — Special Characters</h1><nav><a href="index.html">← Back</a></nav></header>
+<main class="container">
+  <h2>Special Characters (Client-side validation)</h2>
+  <p class="small">This page demonstrates client-side validation that blocks special characters. Client checks can be bypassed — remember: never trust client-side validation.</p>
+  <form onsubmit="return false;">
+    <label for="input">Input:</label><br/>
+    <input id="input" name="input" placeholder="Try characters like %21 %40 etc." style="padding:10px;border-radius:8px;border:1px solid #eef2f7;max-width:420px;width:100%"/><br/><br/>
+    <button class="cta" onclick="alert('Static demo — view source to find the flag.')">Submit</button>
+  </form>
+  <p class="small" style="margin-top:12px">Hint: open the page source (Ctrl+U) and search for <code>FLAG{</code>.</p>
+</main>
+<!-- FLAG{web_special_chars} -->
+</body></html>

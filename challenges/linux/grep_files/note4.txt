@@ -1,0 +1,3 @@
+This is note 4
+Secret line
+FLAG{linux_2_grep}
